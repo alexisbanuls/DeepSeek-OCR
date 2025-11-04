@@ -15,10 +15,10 @@ model = model.eval().cuda().to(torch.bfloat16)
 
 
 
-# prompt = "<image>\nFree OCR. "
-prompt = "<image>\n<|grounding|>Convert the document to markdown. "
-image_file = 'your_image.jpg'
-output_path = 'your/output/dir'
+prompt = "<image>\nFree OCR. "
+# prompt = "<image>\n<|grounding|>Convert the document to markdown. "
+image_file = 'images/frame000894.jpg'
+output_path = 'outputs'
 
 
 
